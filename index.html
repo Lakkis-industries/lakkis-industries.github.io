@@ -1,35 +1,90 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LAKKIS - L'avenir de la mobilité</title>
-<style>
-  body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-  .header { background: url('chemin-vers-image-de-fond.jpg') no-repeat center center; background-size: cover; color: white; text-align: center; padding: 100px 20px; }
-  .navbar { display: flex; justify-content: space-between; background-color: #333; padding: 0 20px; }
-  .navbar a { color: white; padding: 14px 20px; text-decoration: none; display: block; }
-  .navbar a:hover { background-color: #ddd; color: black; }
-  .logo { font-size: 24px; font-weight: bold; }
-  .menu { list-style-type: none; display: flex; margin: 0; padding: 0; }
-  .menu li { padding: 0 10px; }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jupiter J1 - La mobilité moderne</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="navbar">
-  <div class="logo">LAKKIS</div>
-  <ul class="menu">
-    <li><a href="#accueil">Accueil</a></li>
-    <li><a href="#technologie">Technologie</a></li>
-    <li><a href="#nous-trouver">Nous trouver</a></li>
-    <li><a href="#a-propos">À propos</a></li>
-    <li><a href="#nous-contacter">Nous contacter</a></li>
-  </ul>
-</div>
-<div class="header">
-  <h1>L'AVENIR DE LA MOBILITÉ EST LÀ</h1>
-  <p>La mobilité intelligente enfin simple et accessible</p>
-</div>
-<!-- Ajoutez ici le reste du contenu de votre page -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Présentation</a></li>
+        <li><a href="#">Design</a></li>
+        <li><a href="#">Avantages</a></li>
+        <li><a href="#">LIAP</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <video autoplay loop muted>
+        <source src="hero-video.mp4" type="video/mp4">
+      </video>
+      <h1>La mobilité moderne</h1>
+      <a href="#" class="btn">Découvrir</a>
+    </section>
+
+    <section class="presentation">
+      <h2>Présentation</h2>
+      <div class="specs">
+        <img src="specs.png" alt="Caractéristiques techniques">
+        <ul>
+          <li>Autonomie : 130 km</li>
+          <li>Vitesse max : 45 km/h</li>
+          <li>Dimensions : 2,5 x 1,3 x 1,5 m</li>
+        </ul>
+      </div>
+      <div class="viewer">
+        <img src="viewer.png" alt="Visuel 360°">
+      </div>
+    </section>
+
+    <section class="design">
+      <h2>Design avant-gardiste</h2>
+      <img src="design.jpg" alt="Design Jupiter J1">
+      <p>Un design sexy et moderne avec des courbes sportives.</p>
+    </section>
+
+    <section class="advantages">
+      <h2>Avantages économiques</h2>
+      <div class="price">
+        <h3>9 900€ TTC</h3>
+        <p>Prix d'achat à partir de, bonus déduit</p>
+      </div>
+      <div class="cost">
+        <h3>1€ le plein</h3>
+        <p>Coût d'utilisation à partir de</p>
+      </div>
+      <div class="eco">
+        <h3>900€</h3>
+        <p>Bonus écologique</p>
+      </div>
+    </section>
+
+    <section class="liap">
+      <h2>Partenaire LIAP</h2>
+      <p>Solutions de covoiturage et autopartage éco-responsables.</p>
+      <img src="liap.png" alt="Plateforme LIAP">
+    </section>
+
+    <section class="contact">
+      <h2>Contactez-nous</h2>
+      <form>
+        <!-- Champs du formulaire -->
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Lakkis Industries</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
